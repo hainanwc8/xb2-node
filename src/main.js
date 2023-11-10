@@ -1,2 +1,2 @@
-const greeting = 'hello';
+const greeting = 'branch greeting';
 console.log(greeting);
