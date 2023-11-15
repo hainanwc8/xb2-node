@@ -1,2 +1,8 @@
-const greeting = 'branch greeting';
-console.log(greeting);
+const http = require('http');
+const server = http.createServer((request,response)=>{
+    response.write('hello33 ~');
+    response.end();
+});
+server.listen(3000,()=>{
+  console.log('服务已启动');
+});
