@@ -8,7 +8,7 @@ const port = 80;
 //使用JSON中间件
 app.use(express.json());
 app.listen(port, () => {
-    console.log('服务已启动222');
+    console.log('服务已启动9');
 })
 //@ts-ignore
 app.get('/', (request: Request, response: Response) => {
