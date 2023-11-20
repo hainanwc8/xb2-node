@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "es6", // 目标编译版本
+      "module": "commonjs", // 模块系统
+      "strict": true, // 启用严格模式
+      "esModuleInterop": true, // 启用ES模块互操作性
+      "outDir": "./dist", // 输出目录
+      "sourceMap": true, // 生成源映射文件
+      "resolveJsonModule": true, // 支持导入JSON模块
+      "declaration": true, // 生成声明文件
+      "allowSyntheticDefaultImports": true, // 允许默认导入
+      "noImplicitAny": true, // 不允许隐式的any类型
+      "strictNullChecks": true, // 严格检查null值
+      "noUnusedLocals": false, // 不允许未使用的局部变量
+      "noUnusedParameters": true // 不允许未使用的函数参数
+    },
+    "include": [
+      "src/**/*.ts" // 包含的源文件路径
+    ],
+    "exclude": [
+      "node_modules" // 排除的文件夹路径
+    ]
+  }
